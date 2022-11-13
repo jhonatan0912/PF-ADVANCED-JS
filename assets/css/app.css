@@ -1,0 +1,49 @@
+.img__price__container {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  bottom: 1px;
+  left: 5px;
+  background: #fff;
+  padding: 0 8px;
+  color: #6b7280;
+  font-size: .9em;
+}
+
+.fa-heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+img:hover+.price {
+  bottom: 5px;
+  transition: bottom .3s ease-in-out;
+}
+
+.fa-shopping-bag {
+  position: relative;
+}
+
+.fa-shopping-bag::after {
+  position: absolute;
+  content: attr(count);
+  top: -10px;
+  right: -10px;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 1em;
+  text-align: center;
+}
+
+.col {
+  cursor: pointer;
+}
+
+.col:hover {
+  border: 1px solid #000;
+  padding-bottom: 1em;
+}
