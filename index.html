@@ -33,9 +33,14 @@
 </head>
 
 <body class="">
-  <div class="bg-black text-white flex justify-evenly text-xs py-1 font-bold">
-    <p>💥HASTA 30% OFF + 30% DCTO. ADICIONAL EXCLUSIVO MIEMBROS ADICLUB EN CATÁLOGO SELECCIONADO💥</p>
-    <p><i class="fa fa-car"></i> ENVÍOS GRATIS A NIVEL NACIONAL ¡SOLO PARA MIEMBROS ADICLUB!</p>
+  <div class="bg-black text-white flex justify-evenly text-xs py-2 font-bold">
+    <p class="hover:border-b cursor-pointer">💥HASTA 30% OFF + 30% DCTO. ADICIONAL EXCLUSIVO MIEMBROS ADICLUB EN
+      CATÁLOGO
+      SELECCIONADO💥</p>
+    <p class="hover:border-b cursor-pointer"><i class="fa fa-car"></i> ENVÍOS GRATIS A NIVEL NACIONAL ¡SOLO PARA
+      MIEMBROS
+      ADICLUB!
+    </p>
   </div>
 
   <header class="flex justify-between border-bottom pt-4 px-6 items-center">
@@ -54,13 +59,48 @@
     </nav>
     <div class="flex gap-4">
       <div class="search">
-        <input type="search" class="border font-bold px-2 bg-gray-200" placeholder="Buscar">
+        <div class="w-52 h-6 bg-gray-200 flex justify-between items-center px-2 hover:border-gray-400 hover:border">
+          <p>Buscar</p>
+          <i class="fa fa-search"></i>
+        </div>
+
       </div>
       <div class="login">
-        <i class="fa fa-user"></i>
+        <i class="fa fa-user cursor-pointer"></i>
       </div>
       <div class="cart">
-        <i class="fa fa-shopping-bag" count=""></i>
+        <i class="fa fa-shopping-bag cursor-pointer" count=""></i>
+        <div class="pasarela-container hidden">
+          <p class="py-2 text-center underline font-bold">Pasarela de pago</p>
+          <div>
+            <div class="flex justify-between pb-4">
+              <p>🔵Tarjeta de crédito</p>
+              <div class="flex gap-2 items-center">
+                <img src="./assets/img/visa.webp" class="w-6 h-3">
+                <img src="./assets/img/mastercard.png" class="w-6 h-3">
+                <img src="./assets/img/ae.png" class="w-6 h-3">
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <div class="flex justify-between border border-gray-600 px-2">
+                <input class="outline-none" placeholder="Número de tarjeta">
+                <img src="./assets/img/lock.svg" width="15px">
+              </div>
+              <div class="flex justify-between border border-gray-600 px-2">
+                <input class="outline-none" type="text" placeholder="Nombre del titular">
+              </div>
+              <div class="flex justify-between gap-2">
+                <input type="text" placeholder="Fecha de vencimiento"
+                  class="border border-gray-600 text-xs outline-none px-2">
+                <div class="border border-gray-600 flex items-center text-xs px-2">
+                  <input type="text" placeholder="Código de seguridad" class="outline-none">
+                  <i class="fa fa-question"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-success px-4 mt-4 d-block hover:scale-105 m-auto">Pay</button>
+        </div>
       </div>
     </div>
   </header>
@@ -68,7 +108,7 @@
   <main>
     <div class="container-sm">
 
-      <div class="row row-cols-3 my-6 gap-y-4">
+      <div class="row row-cols-3 my-10 gap-y-4">
 
         <div class="col">
           <div class="img__price__container">

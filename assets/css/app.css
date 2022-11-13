@@ -47,3 +47,24 @@ img:hover+.price {
   border: 1px solid #000;
   padding-bottom: 1em;
 }
+
+.cart {
+  position: relative;
+}
+
+.pasarela-container {
+  position: absolute;
+  background-color: #fff;
+  left: -400px;
+  border: 1px solid;
+  z-index: 5;
+  padding: 1em;
+}
+
+.pasarela-container.hidden {
+  display: none;
+}
+
+.pasarela-container {
+  display: block;
+}
