@@ -1,0 +1,6 @@
+{
+  "short_name": "AdidasTemplate",
+  "name": "Adidas Template vanilla",
+  "start_url": "index.html",
+  "scope": "/"
+}

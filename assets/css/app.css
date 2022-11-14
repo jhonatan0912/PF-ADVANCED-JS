@@ -33,11 +33,14 @@ img:hover+.price {
   content: attr(count);
   top: -15px;
   right: -15px;
-  background-color: yellow;
+  background-color: #0071ae;
+  color: #fff;
   border-radius: 50%;
   width: 1.3em;
   text-align: center;
-  font-size: .9em;
+  font-size: .8em;
+  line-height: 1.3em;
+  font-weight: normal;
 }
 
 .col {
@@ -46,7 +49,7 @@ img:hover+.price {
 
 .col:hover {
   border: 1px solid #000;
-  padding-bottom: 1em;
+  padding: 0 0 1em 0;
 }
 
 .cart {
@@ -56,7 +59,7 @@ img:hover+.price {
 .pasarela-container {
   position: absolute;
   background-color: #fff;
-  left: -400px;
+  left: -340px;
   border: 1px solid;
   z-index: 5;
   padding: 1em;
