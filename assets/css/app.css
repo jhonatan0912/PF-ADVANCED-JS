@@ -22,6 +22,7 @@
 img:hover+.price {
   bottom: 5px;
   transition: bottom .3s ease-in-out;
+  box-shadow: 0 0 5px;
 }
 
 .fa-shopping-bag {

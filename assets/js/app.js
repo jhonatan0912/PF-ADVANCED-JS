@@ -5,20 +5,15 @@ $(document).ready(function () {
   let cartCount = document.querySelector('.fa-shopping-bag')
   let countProduct = 0;
 
-
   for (let i = 1; i < 10; i++) {
     let imageTemplate = document.querySelector(`img[src="./assets/img/${i}.webp"]`)
     let imageOriginal = `./assets/img/${i}.webp`;
     let image = `./assets/img/${i}-hover.webp`
     let btn = document.querySelector(`.btn-shop${i}`)
 
-    imageTemplate.addEventListener('mouseover', () => {
-      imageTemplate.src = image
-    })
+    imageTemplate.addEventListener('mouseover', () => { imageTemplate.src = image })
 
-    imageTemplate.addEventListener('mouseleave', () => {
-      imageTemplate.src = imageOriginal
-    })
+    imageTemplate.addEventListener('mouseleave', () => { imageTemplate.src = imageOriginal })
 
     btn.addEventListener('click', () => {
       countProduct += 1
@@ -28,7 +23,5 @@ $(document).ready(function () {
   }
 
   let pasarela = document.querySelector('.pasarela-container')
-  cartCount.addEventListener('click', () => {
-    pasarela.classList.toggle('hidden')
-  })
+  cartCount.addEventListener('click', () => { pasarela.classList.toggle('hidden') })
 });
