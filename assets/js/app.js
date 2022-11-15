@@ -11,16 +11,25 @@ $(document).ready(function () {
     let image = `./assets/img/${i}-hover.webp`;
     let btn = document.querySelector(`.btn-shop${i}`);
 
-    imageTemplate.addEventListener('mouseover', () => { imageTemplate.src = image });
+    $(imageTemplate).mouseover(function () {
+      imageTemplate.src = image
+    });
 
-    imageTemplate.addEventListener('mouseleave', () => { imageTemplate.src = imageOriginal });
+    $(imageTemplate).mouseleave(function () {
+      imageTemplate.src = imageOriginal
+    });
 
-    btn.addEventListener('click', () => {
+    $(btn).click(function (e) {
+      e.preventDefault();
       countProduct += 1;
       cartCount.setAttribute("count", countProduct);
-    })
+    });
   }
 
   let pasarela = document.querySelector('.pasarela-container');
-  cartCount.addEventListener('click', () => { pasarela.classList.toggle('hidden') });
+
+  $(cartCount).click(function (e) {
+    e.preventDefault();
+    $(pasarela).toggle('hidden');
+  });
 });
