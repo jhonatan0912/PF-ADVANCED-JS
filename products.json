@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "img": "assets/img/1.webp",
+    "imgHover": "assets/img/1-hover.webp",
+    "price": 429,
+    "name": "Zapatillas Forum 84 Low",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 2,
+    "img": "assets/img/2.webp",
+    "imgHover": "assets/img/2-hover.webp",
+    "price": 300,
+    "name": "Zapatillas Forum 84 Low",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 3,
+    "img": "assets/img/3.webp",
+    "imgHover": "assets/img/3-hover.webp",
+    "price": 124,
+    "name": "Zapatillas Forum 84 Low",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 4,
+    "img": "assets/img/4.webp",
+    "imgHover": "assets/img/4-hover.webp",
+    "price": 265,
+    "name": "Zapatillas Forum 84 Low",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 5,
+    "img": "assets/img/5.webp",
+    "imgHover": "assets/img/5-hover.webp",
+    "price": 474,
+    "name": "Zapatillas Forum 84 Low",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 6,
+    "img": "assets/img/6.webp",
+    "imgHover": "assets/img/6-hover.webp",
+    "price": 251,
+    "name": "Zapatillas Forum 84 Low",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  }
+]
