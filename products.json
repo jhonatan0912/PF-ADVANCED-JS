@@ -13,7 +13,7 @@
     "img": "assets/img/2.webp",
     "imgHover": "assets/img/2-hover.webp",
     "price": 300,
-    "name": "Zapatillas Forum 84 Low",
+    "name": "SAMBA",
     "colorStock": "6 colores",
     "deliveryStatus": "envio gratis"
   },
@@ -22,7 +22,7 @@
     "img": "assets/img/3.webp",
     "imgHover": "assets/img/3-hover.webp",
     "price": 124,
-    "name": "Zapatillas Forum 84 Low",
+    "name": "Zapatillas NMD_V3",
     "colorStock": "6 colores",
     "deliveryStatus": "envio gratis"
   },
@@ -31,7 +31,7 @@
     "img": "assets/img/4.webp",
     "imgHover": "assets/img/4-hover.webp",
     "price": 265,
-    "name": "Zapatillas Forum 84 Low",
+    "name": "Zapatillas Campus 00s",
     "colorStock": "6 colores",
     "deliveryStatus": "envio gratis"
   },
@@ -40,7 +40,7 @@
     "img": "assets/img/5.webp",
     "imgHover": "assets/img/5-hover.webp",
     "price": 474,
-    "name": "Zapatillas Forum 84 Low",
+    "name": "Zapatillas Superstar",
     "colorStock": "6 colores",
     "deliveryStatus": "envio gratis"
   },
@@ -49,7 +49,34 @@
     "img": "assets/img/6.webp",
     "imgHover": "assets/img/6-hover.webp",
     "price": 251,
-    "name": "Zapatillas Forum 84 Low",
+    "name": "Zapatillas Forum Bold",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 7,
+    "img": "assets/img/7.webp",
+    "imgHover": "assets/img/7-hover.webp",
+    "price": 221,
+    "name": "Zapatillas Campus 00s",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 8,
+    "img": "assets/img/8.webp",
+    "imgHover": "assets/img/8-hover.webp",
+    "price": 221,
+    "name": "Forum exhibit low 2",
+    "colorStock": "6 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 9,
+    "img": "assets/img/9.webp",
+    "imgHover": "assets/img/9-hover.webp",
+    "price": 221,
+    "name": "Zapatillas Forum Low",
     "colorStock": "6 colores",
     "deliveryStatus": "envio gratis"
   }

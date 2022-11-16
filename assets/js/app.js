@@ -18,6 +18,8 @@ $(document).ready(function () {
     let json = await data.json();
     let productContainer = document.querySelector('#products__container');
     let productCard;
+    let cart = [];
+    let productsCartContainer = document.querySelector('.products-cart-container')
 
     const productCards = json.map(product =>
     (productCard = `<div class="col"> <div class="img__price__container"><i class="far fa-heart"></i><img loading="lazy" class="img-fluid w-full" src="${product.img}" alt="zapatilla"><span class="price">S/.${product.price}</span> </div><div class="details mt-2"><p>${product.name}</p>
@@ -35,7 +37,21 @@ $(document).ready(function () {
         e.preventDefault();
         countProduct += 1;
         cartCount.setAttribute("count", countProduct);
+        // Add product to cart
+        cart.push(product.name)
+
+        // console.log(cart);
+
+        let itemTemplate;
+        cart.forEach(item => {
+          itemTemplate = `<p>⚫${item}</p>`
+
+        })
+        productsCartContainer.innerHTML += itemTemplate
+
       });
+
+
 
       let img = document.querySelector(`img[src="assets/img/${product.id}.webp"]`)
 
@@ -50,7 +66,6 @@ $(document).ready(function () {
 
     })
   }
-
-
   getData()
+
 });
