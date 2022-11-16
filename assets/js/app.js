@@ -44,7 +44,7 @@ $(document).ready(function () {
 
         let itemTemplate;
         cart.forEach(item => {
-          itemTemplate = `<p>⚫${item}</p>`
+          itemTemplate = `<p>✅${item}</p>`
 
         })
         productsCartContainer.innerHTML += itemTemplate
