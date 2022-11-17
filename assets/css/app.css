@@ -44,11 +44,11 @@ img:hover+.price {
   font-weight: normal;
 }
 
-.col {
+.card-container {
   cursor: pointer;
 }
 
-.col:hover {
+.card-container:hover {
   border: 1px solid #000;
   padding: 0 0 1em 0;
 }
@@ -84,4 +84,22 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.club {
+  background-color: #ede734;
+}
+
+.register-free {
+  box-shadow: 4px 3px 1px #FFF;
+  cursor: pointer;
+}
+
+.login-container {
+  position: absolute;
+  left: -45em;
+  z-index: 3;
+  border: 1px solid #202020;
+  padding: 1em;
+  background-color: white;
 }

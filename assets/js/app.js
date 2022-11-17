@@ -12,6 +12,14 @@ $(document).ready(function () {
     $(pasarela).toggle('hidden');
   });
 
+  // user event
+  let userbtn = document.querySelector('.fa-user')
+  let login = document.querySelector('.login-container')
+  $(userbtn).click(function (e) {
+    e.preventDefault();
+    $(login).toggle('hidden');
+  });
+
 
   const getData = async () => {
     let data = await fetch('products.json')
@@ -22,7 +30,7 @@ $(document).ready(function () {
     let productsCartContainer = document.querySelector('.products-cart-container')
 
     const productCards = json.map(product =>
-    (productCard = `<div class="col"> <div class="img__price__container"><i class="far fa-heart"></i><img loading="lazy" class="img-fluid w-full" src="${product.img}" alt="zapatilla"><span class="price">S/.${product.price}</span> </div><div class="details mt-2"><p>${product.name}</p>
+    (productCard = `<div class="col card-container"> <div class="img__price__container"><i class="far fa-heart"></i><img loading="lazy" class="img-fluid w-full" src="${product.img}" alt="zapatilla"><span class="price">S/.${product.price}</span> </div><div class="details mt-2"><p>${product.name}</p>
     <p class="text-gray-6 00">Hombre Originals</p><div class="flex"><p>6 colores</p><p>&nbsp;-&nbsp; envio gratis</p></div><button class="btn btn-primary mt-2 d-block m-auto  btn-shop${product.id}">Shop now!&nbsp; <i class="fas fa-shopping-cart"></i></button>
       </div></div>`)
     )

@@ -30,6 +30,8 @@
   <script src="https://kit.fontawesome.com/a413ea44fb.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/app.css">
+  <!-- Booststrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <title>Zapatillas adidas Originals | adidas Perú</title>
   <link rel="manifest" href="./manifest.json">
 </head>
@@ -56,7 +58,8 @@
         <li><a class="font-bold" href="#">NIÑOS</a></li>
         <li><a class="" href="#">DEPORTES</a></li>
         <li><a class="" href="#">MARCAS</a></li>
-        <li><a class="" href="#">COLECCIONES</a></li>
+        <li><a class="" href="#">REGALOS</a></li>
+        <li><a class="text-red-500 font-bold" href="#">CYBER DAYS</a></li>
       </ul>
     </nav>
     <div class="flex gap-4">
@@ -68,8 +71,35 @@
         </div>
 
       </div>
-      <div class="login">
+      <div class="login relative">
         <i class="fa fa-user cursor-pointer  text-xl"></i>
+        <!-- LOGIN TEMPLATE -->
+        <section class="login-container w-96">
+          <h1 class="text-center font-bold underline">LOGIN</h1>
+          <div class="flex items-center gap-2 text-lg">
+            <p>Sign in with</p>
+            <div>
+              <i class="bi bi-facebook text-blue-700"></i>
+              <i class="bi bi-twitter text-blue-700"></i>
+              <i class="bi bi-linkedin text-blue-700"></i>
+            </div>
+          </div>
+
+          <p class="text-center font-bold">or</p>
+
+          <div class="flex flex-col gap-2">
+            <input class="form-control" type="email" name="email" id="email" placeholder="Email address">
+            <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+            <div class="flex justify-between">
+              <div><input type="checkbox"> Remember me</div>
+              <p>Forgot password?</p>
+            </div>
+            <button class="btn btn-primary">LOGIN</button>
+            <p>Don't have an account? <span class="text-red-500 font-bold cursor-pointer">Register</span></p>
+          </div>
+
+        </section>
+        <!--END LOGIN TEMPLATE -->
       </div>
       <div class="cart">
         <i class="fa fa-shopping-bag cursor-pointer text-xl" count=""></i>
@@ -111,6 +141,13 @@
   <main>
 
     <div class="container-sm">
+      <h1 class="text-4xl italic font-semibold mt-4">ZAPATILLAS ADIDAS ORIGINALS <span
+          class="text-xs text-gray-400">[620]</span>
+      </h1>
+      <p class="w-3/5 mt-2">Encuentra aquí zapatillas adidas originals. Las combinaciones de colores, tipo y grosor de
+        suela,
+        materiales y
+        textiles técnicos hacen que la posibilidad de elegir un par de modelos pueda acabar siendo una aventura.</p>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3  my-10 gap-y-8" id="products__container">
       </div>
@@ -118,6 +155,177 @@
     </div>
 
   </main>
+  <footer>
+    <div class="container">
+      <div class="row px-4">
+        <h2 class="text-3xl my-2 font-medium">ADIDAS ORIGINALS ZAPATILLAS</h2>
+        <p class="text-md">Stan Smith, Superstar, Continental 80 o Gazelle son algunos de los modelos de zapatillas
+          adidas
+          Originals más
+          legendarios, en los que se combinan una multitud de características para conseguir una gran variedad de
+          modelos.
+          Las
+          combinaciones de colores, tipo y grosor de suela, materiales y textiles técnicos hacen que la posibilidad de
+          elegir un
+          par de entre alguno de los que ofrece el amplio catálogo pueda acabar siendo una aventura. Y, por si fuera
+          poco,
+          además
+          existe la posibilidad de elegir un modelo adaptado a las tendencias actuales u optar por uno con claras
+          connotaciones
+          retro.</p>
+        <h2 class="text-3xl my-2 font-medium">ZAPATILLAS ADIDAS ORIGINALS</h2>
+        <p class="text-md">Para ir a la última moda con una imagen deportiva, las zapatillas adidas Originals mantienen
+          el
+          uso de materiales
+          de
+          primera calidad y máximas prestaciones que caracterizó a estos modelos desde su lanzamiento a lo largo de la
+          historia de
+          la marca de las 3-Stripes. Piel, ante (natural o sintético), nailon, TPU, EVA o Primeknit constituyen solo
+          unos
+          ejemplos
+          de estos materiales, que, en combinación con algunos recursos tecnológicos, como el Adiprene+, que refuerza la
+          amortiguación, o el uso de EVA texturizada, que hace las mediasuelas más confortables, actualizan los modelos
+          para
+          adaptarlos a las exigencias actuales.</p>
+        <h2 class="text-3xl my-2 font-medium">ZAPATILLAS ORIGINALS</h2>
+        <p class="text-md">Las colecciones de zapatillas Originals de adidas tienen modelos que beben directamente de la
+          leyenda, como el
+          Stan
+          Smith, cuyo nombre rinde homenaje al héroe estadounidense de la raqueta de la década de 1970 y que es un
+          clásico
+          eterno;
+          o el SL 72, que debutó en los Juegos de Múnich de 1972 y que se convirtió en el primer modelo de la marca de
+          las
+          3-Stripes que lució el logo Trefoil de adidas en la zapatilla, otro clásico retro. Independientemente de
+          cuándo
+          nacieron, la aplicación de estampados o distintos recursos gráficos, que parecen casi personalizados, hace que
+          las
+          zapatillas adidas Originals se adapten a la perfección a las exigencias de los tiempos más actuales.</p>
+      </div>
+
+      <h3 class="font-bold mt-16 text-xl">NUESTRAS CATEGORÍAS DE ROPA Y CALZADO</h3>
+
+      <div class="row mt-2">
+        <div class="col">
+          <ul class="outline-none">
+            <li><a href="#">Zapatillas</a></li>
+            <li><a href="#">Oferta Del Día</a></li>
+            <li><a href="#">Pelota Del Mundial</a></li>
+            <li><a href="#">Vestidos</a></li>
+            <li><a href="#">Polos Deportivos</a></li>
+            <li><a href="#">Ropa</a></li>
+            <li><a href="#">Casacas</a></li>
+            <li><a href="#">Sandalias</a></li>
+            <li><a href="#">Canguros</a></li>
+            <li><a href="#">Pantalones</a></li>
+            <li><a href="#">Ropa De Baño</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="outline-none">
+            <li><a href="#">Ropa Para Niñas</a></li>
+            <li><a href="#">Tomatodo</a></li>
+            <li><a href="#">Casacas para Hombre</a></li>
+            <li><a href="#">Casacas para Niñas</a></li>
+            <li><a href="#">Mochilas Escolares</a></li>
+            <li><a href="#">Calzado</a></li>
+            <li><a href="#">Gorros Para Hombre</a></li>
+            <li><a href="#">Vestidos Negros</a></li>
+            <li><a href="#">Balones</a></li>
+            <li><a href="#">Shorts Deporte</a></li>
+            <li><a href="#">Tops</a></li>
+            <li><a href="#">Traje De Baño</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="outline-none">
+            <li><a href="#">Zapatillas Urbanas</a></li>
+            <li><a href="#">Zapatillas Urbanas Hombre</a></li>
+            <li><a href="#">Regalos Para Niñas</a></li>
+            <li><a href="#">Sandalias Mujer</a></li>
+            <li><a href="#">Zapatillas Deportivas</a></li>
+            <li><a href="#">Zapatillas Fútbol</a></li>
+            <li><a href="#">Bolsos</a></li>
+            <li><a href="#">Polos Con Estampados</a></li>
+            <li><a href="#">Ropa De Mujer</a></li>
+            <li><a href="#">Shorts Mujer</a></li>
+            <li><a href="#">Bolsos Para Mujer</a></li>
+            <li><a href="#">Polos Mujer</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="outline-none">
+            <li><a href="#">Zapatos Rojos</a></li>
+            <li><a href="#">Mallas Para Mujer</a></li>
+            <li><a href="#">Pantalones Para Hombre</a></li>
+            <li><a href="#">Ropa Para Embarazada</a></li>
+            <li><a href="#">Ropa Para Hombre</a></li>
+            <li><a href="#">Pantalones Para Mujer</a></li>
+            <li><a href="#">Polos Rojos</a></li>
+            <li><a href="#">Zapatos Mujer</a></li>
+            <li><a href="#">Bodys Mujer</a></li>
+            <li><a href="#">Casacas Deportivas</a></li>
+            <li><a href="#">Conjuntos Deportivos</a></li>
+            <li><a href="#">Pantalones Negros Hombre</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="outline-none">
+            <li><a href="#">Pantalones Negros</a></li>
+            <li><a href="#">Polos Deportivos Para Hombre</a></li>
+            <li><a href="#">Casacas Impermeables</a></li>
+            <li><a href="#">Pantalones Beige Hombre</a></li>
+            <li><a href="#">Polos Para Niñas</a></li>
+            <li><a href="#">Tops Negros</a></li>
+            <li><a href="#">Bolsos Negro</a></li>
+            <li><a href="#">Conjuntos Para Niñas</a></li>
+            <li><a href="#">Medias Largas</a></li>
+            <li><a href="#">Pantalones Beige</a></li>
+            <li><a href="#">Ropa Deportiva</a></li>
+            <li><a href="#">Sandalias De Verano</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="outline-none">
+            <li><a href="#">Casaca Rojo</a></li>
+            <li><a href="#">Faldas Mujer</a></li>
+            <li><a href="#">Polos Deportivos</a></li>
+            <li><a href="#">Ropa Reciclada</a></li>
+            <li><a href="#">Accesorios Deportivos</a></li>
+            <li><a href="#">Casaca Verde</a></li>
+            <li><a href="#">Sandalias Negras</a></li>
+            <li><a href="#">Casacas Negras</a></li>
+            <li><a href="#">Mallas Negras</a></li>
+            <li><a href="#">Pantalones Deportivos</a></li>
+            <li><a href="#">Poleras Deportivas</a></li>
+            <li><a href="#">Polos Con Cuello</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="club flex justify-center py-4 gap-4 my-16">
+      <p class="font-black text-2xl">ÚNETE AL CLUB Y CONSIGUE <br>UN 15% DE DESCUENTO</p>
+      <div class="register-free bg-black flex items-center justify-center text-white px-2">
+        <p>REGÍSTRATE GRATIS →</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col bg-zinc-800 text-gray-300 justify-center items-center text-sm">
+      <ul class="flex py-4 gap-3">
+        <a class="border-r-white border-r pr-4" href="#">Nuestros datos</a>
+        <a class="border-r-white border-r pr-4" href="#">Términos y condiciones</a>
+        <a class="border-r-white border-r pr-4" href="#">Politicas de Privacidad</a>
+        <a class="border-r-white border-r pr-4" href="#">Términos y #YESadidas</a>
+        <a class="border-r-white border-r pr-4" href="#">Seleccionar País</a>
+        <a class="border-r-white border-r pr-4" href="#">Uso del sitio</a>
+      </ul>
+      <p class="pb-3">&copy; adidas Perú SAC, RUC 20347100316. Av.28 de Julio 1011, interior 1001, Miraflores, Código
+        Postal Lima 18
+      </p>
+    </div>
+
+  </footer>
 
   <script src=" ./assets/js/app.js"></script>
 </body>
