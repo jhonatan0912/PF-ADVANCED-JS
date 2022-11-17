@@ -97,7 +97,10 @@ input[type=number] {
 
 .login-container {
   position: absolute;
-  left: -45em;
+  /* left: -45em; */
+  left: 0;
+  right: 0;
+  margin: auto;
   z-index: 3;
   border: 1px solid #202020;
   padding: 1em;
