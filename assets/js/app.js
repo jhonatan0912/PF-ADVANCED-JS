@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.clear();
   console.log("document ready");
 
   let cartCount = document.querySelector('.fa-shopping-bag');
