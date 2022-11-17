@@ -79,5 +79,32 @@
     "name": "Zapatillas Forum Low",
     "colorStock": "6 colores",
     "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 10,
+    "img": "assets/img/10.webp",
+    "imgHover": "assets/img/10-hover.webp",
+    "price": 399,
+    "name": "Zapatillas Forum Bold",
+    "colorStock": "9 colores",
+    "deliveryStatus": "solo en adidas"
+  },
+  {
+    "id": 11,
+    "img": "assets/img/11.webp",
+    "imgHover": "assets/img/11-hover.webp",
+    "price": 332,
+    "name": "OZWEEGO",
+    "colorStock": "2 colores",
+    "deliveryStatus": "envio gratis"
+  },
+  {
+    "id": 12,
+    "img": "assets/img/12.webp",
+    "imgHover": "assets/img/12-hover.webp",
+    "price": 529,
+    "name": "TREZIOD",
+    "colorStock": "2 colores",
+    "deliveryStatus": "envio gratis"
   }
 ]
