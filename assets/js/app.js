@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 
   const getData = async () => {
-    let data = await fetch('products.json')
+    let data = await fetch('./../../products.json')
     let json = await data.json();
     let productContainer = document.querySelector('#products__container');
     let productCard;
