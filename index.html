@@ -76,29 +76,29 @@
         <div class="login ">
           <i class="fa fa-user cursor-pointer  text-xl"></i>
           <!-- LOGIN TEMPLATE -->
-          <section class="login-container w-96 hidden">
+          <section class="login-container w-96 mt-4 fixed">
             <h1 class="text-center font-bold underline">LOGIN</h1>
-            <div class="flex justify-between items-center gap-2 text-lg">
+            <div class="flex items-center gap-3 text-lg py-2">
               <p>Sign in with</p>
-              <div>
+              <div class="flex gap-3">
                 <i class="cursor-pointer bi bi-facebook text-blue-700"></i>
                 <i class="cursor-pointer bi bi-twitter text-sky-500"></i>
                 <i class="cursor-pointer bi bi-linkedin text-blue-600"></i>
               </div>
             </div>
 
-            <p class="text-center font-bold">or</p>
+            <p class="text-center font-bold py-1">or</p>
 
-            <div class="flex flex-col gap-2">
-              <input class="form-control" type="email" name="email" id="email" placeholder="Email address">
+            <form class="flex flex-col gap-2">
+              <input class="form-control" type="email" name="email" id="email" placeholder="Email address" required>
               <input class="form-control" type="password" name="password" id="password" placeholder="Password">
               <div class="flex justify-between">
                 <div><input type="checkbox"> Remember me</div>
                 <p>Forgot password?</p>
               </div>
-              <button class="btn btn-primary">LOGIN</button>
+              <button class="btn btn-primary btn-login">LOGIN</button>
               <p>Don't have an account? <span class="text-red-500 font-bold cursor-pointer">Register</span></p>
-            </div>
+            </form>
 
           </section>
           <!--END LOGIN TEMPLATE -->
